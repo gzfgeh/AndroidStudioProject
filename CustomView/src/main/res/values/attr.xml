@@ -7,6 +7,7 @@
     <attr name="centerText" format="string"></attr>
     <attr name="centerTextColor" format="color"></attr>
     <attr name="centerTextSize" format="dimension"></attr>
+    <attr name="bg" format="reference"></attr>
 
     <declare-styleable name="CustomView">
         <attr name="firstColor" ></attr>
@@ -17,4 +18,14 @@
         <attr name="centerTextColor" ></attr>
         <attr name="centerTextSize"></attr>
     </declare-styleable>
+
+    <declare-styleable name="CustomVoiceView">
+        <attr name="firstColor"></attr>
+        <attr name="secondColor"></attr>
+        <attr name="circleWidth"></attr>
+        <attr name="bg"></attr>
+        <attr name="dotCount"></attr>
+    </declare-styleable>
+
+
 </resources>
