@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="firstColor" format="color"></attr>
+    <attr name="secondColor" format="color"></attr>
+    <attr name="speed" format="integer"></attr>
+    <attr name="circleWidth" format="dimension"></attr>
+    <attr name="centerText" format="string"></attr>
+    <attr name="centerTextColor" format="color"></attr>
+    <attr name="centerTextSize" format="dimension"></attr>
+
+    <declare-styleable name="CustomView">
+        <attr name="firstColor" ></attr>
+        <attr name="secondColor" ></attr>
+        <attr name="speed" ></attr>
+        <attr name="circleWidth" ></attr>
+        <attr name="centerText"></attr>
+        <attr name="centerTextColor" ></attr>
+        <attr name="centerTextSize"></attr>
+    </declare-styleable>
+</resources>
