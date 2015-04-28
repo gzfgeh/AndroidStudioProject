@@ -28,15 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8757e97a-5b8e-4e05-b7b7-777d37774ed7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CustomView/src/main/java/com/gzfgeh/customview/CustomVoiceView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomView/CustomView.iml" afterPath="$PROJECT_DIR$/CustomView/CustomView.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_22_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomView/src/main/res/values/attr.xml" afterPath="$PROJECT_DIR$/CustomView/src/main/res/values/attr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_22_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android Studio Project.iws" />
@@ -63,8 +54,8 @@
       <file leaf-file-name="CustomVoiceView.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CustomView/src/main/java/com/gzfgeh/customview/CustomVoiceView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7099237" vertical-offset="179" max-vertical-offset="722">
-              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.27480915" vertical-offset="179" max-vertical-offset="722">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#461#462#0" expanded="true" />
@@ -2241,7 +2232,11 @@
       <created>1430206648451</created>
       <updated>1430206648451</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add android studio project&#10;add second custom view&#10;add circle custom view&#10;add custom voice view">
+      <created>1430224025781</created>
+      <updated>1430224025781</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2296,7 +2291,8 @@
     <MESSAGE value="add android studio project&#10;" />
     <MESSAGE value="add android studio project&#10;add second custom view" />
     <MESSAGE value="add android studio project&#10;add second custom view&#10;add circle custom view" />
-    <option name="LAST_COMMIT_MESSAGE" value="add android studio project&#10;add second custom view&#10;add circle custom view" />
+    <MESSAGE value="add android studio project&#10;add second custom view&#10;add circle custom view&#10;add custom voice view" />
+    <option name="LAST_COMMIT_MESSAGE" value="add android studio project&#10;add second custom view&#10;add circle custom view&#10;add custom voice view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2491,8 +2487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CustomView/src/main/java/com/gzfgeh/customview/CustomVoiceView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7099237" vertical-offset="179" max-vertical-offset="722">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.27480915" vertical-offset="179" max-vertical-offset="722">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#461#462#0" expanded="true" />
