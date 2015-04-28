@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:gzfgeh="http://schemas.android.com/apk/res-auto/com.gzfgeh.custombutton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <com.gzfgeh.custombutton.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        gzfgeh:text="@string/hello_world"
+        gzfgeh:textColor="@android:color/black"
+        gzfgeh:textSize="30dp"
+        gzfgeh:image="@drawable/ic_launcher"
+        gzfgeh:imageScallType="center"
+        android:padding="20dp"
+        android:id="@+id/view1"/>
+
+    <com.gzfgeh.custombutton.CustomButton
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        gzfgeh:text="@string/hello_world"
+        gzfgeh:textColor="@android:color/black"
+        gzfgeh:textSize="30dp"
+        gzfgeh:image="@drawable/ic_launcher"
+        gzfgeh:imageScallType="center"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/view1"
+        android:id="@+id/view2"/>
+
+    <com.gzfgeh.custombutton.CustomButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        gzfgeh:text="@string/hello_world"
+        gzfgeh:textColor="@android:color/black"
+        gzfgeh:textSize="30dp"
+        gzfgeh:image="@drawable/share"
+        gzfgeh:imageScallType="center"
+        android:padding="20dp"
+        android:layout_below="@+id/view2"
+        android:id="@+id/view3"/>
+
+</RelativeLayout>
