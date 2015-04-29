@@ -10,6 +10,7 @@ import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
@@ -48,6 +49,8 @@ public class CustomVoiceView extends View {
             bg = BitmapFactory.decodeResource(getResources(), array.getResourceId(R.styleable.CustomVoiceView_bg, R.mipmap.ic_launcher));
             splitSize = array.getInt(R.styleable.CustomVoiceView_splitSize, 20);
             array.recycle();
+
+            Log.i("CustomVoiceView", dotCount + circleWidth + splitSize + "");
 
             paint = new Paint();
             rect = new Rect();
