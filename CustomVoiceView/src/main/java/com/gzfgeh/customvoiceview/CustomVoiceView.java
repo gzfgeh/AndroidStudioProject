@@ -39,17 +39,19 @@ public class CustomVoiceView extends View {
     public CustomVoiceView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        TypedArray array = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomVoiceView, defStyleAttr, 0);
-        firstColor = array.getColor(R.styleable.CustomVoiceView_firstColor, Color.GREEN);
-        secondColor = array.getColor(R.styleable.CustomVoiceView_secondColor, Color.RED);
-        dotCount = array.getInt(R.styleable.CustomVoiceView_dotCount, 20);
-        circleWidth = array.getDimensionPixelOffset(R.styleable.CustomVoiceView_circleWidth, (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX, 20, getResources().getDisplayMetrics()));
-        bg = BitmapFactory.decodeResource(getResources(), array.getResourceId(R.styleable.CustomVoiceView_bg, 0));
-        splitSize = array.getInt(R.styleable.CustomVoiceView_splitSize, 20);
-        array.recycle();
+        if (!isInEditMode()) {
+            TypedArray array = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomVoiceView, defStyleAttr, 0);
+            firstColor = array.getColor(R.styleable.CustomVoiceView_firstColor, Color.GREEN);
+            secondColor = array.getColor(R.styleable.CustomVoiceView_secondColor, Color.RED);
+            dotCount = array.getInt(R.styleable.CustomVoiceView_dotCount, 20);
+            circleWidth = array.getDimensionPixelOffset(R.styleable.CustomVoiceView_circleWidth, (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX, 20, getResources().getDisplayMetrics()));
+            bg = BitmapFactory.decodeResource(getResources(), array.getResourceId(R.styleable.CustomVoiceView_bg, R.mipmap.ic_launcher));
+            splitSize = array.getInt(R.styleable.CustomVoiceView_splitSize, 20);
+            array.recycle();
 
-        paint = new Paint();
-        rect = new Rect();
+            paint = new Paint();
+            rect = new Rect();
+        }
     }
 
     @Override
@@ -63,24 +65,12 @@ public class CustomVoiceView extends View {
 
         drawOval(canvas, centre, radius);
 
-        /**
-         * 计算内切正方形的位置
-         */
         int relRadius = radius - circleWidth / 2;// 获得内圆的半径
-        /**
-         * 内切正方形的距离顶部 = mCircleWidth + relRadius - √2 / 2
-         */
         rect.left = (int) (relRadius - Math.sqrt(2) * 1.0f / 2 * relRadius) + circleWidth;
-        /**
-         * 内切正方形的距离左边 = mCircleWidth + relRadius - √2 / 2
-         */
         rect.top = (int) (relRadius - Math.sqrt(2) * 1.0f / 2 * relRadius) + circleWidth;
         rect.bottom = (int) (rect.left + Math.sqrt(2) * relRadius);
         rect.right = (int) (rect.left + Math.sqrt(2) * relRadius);
 
-        /**
-         * 如果图片比较小，那么根据图片的尺寸放置到正中心
-         */
         if (bg.getWidth() < Math.sqrt(2) * relRadius){
             rect.left = (int) (rect.left + Math.sqrt(2) * relRadius * 1.0f / 2 - bg.getWidth() * 1.0f / 2);
             rect.top = (int) (rect.top + Math.sqrt(2) * relRadius * 1.0f / 2 - bg.getHeight() * 1.0f / 2);
@@ -92,17 +82,7 @@ public class CustomVoiceView extends View {
         canvas.drawBitmap(bg, null, rect, paint);
     }
 
-    /**
-     * 根据参数画出每个小块
-     *
-     * @param canvas
-     * @param centre
-     * @param radius
-     */
     private void drawOval(Canvas canvas, int centre, int radius){
-        /**
-         * 根据需要画的个数以及间隙计算每个块块所占的比例*360
-         */
         float itemSize = (360 * 1.0f - dotCount * splitSize) / dotCount;
 
         RectF oval = new RectF(centre - radius, centre - radius, centre + radius, centre + radius); // 用于定义的圆弧的形状和大小的界限

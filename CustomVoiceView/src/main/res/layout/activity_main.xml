@@ -1,8 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:gzfgeh="http://schemas.android.com/apk/res/com.gzfgeh.customvoiceview"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:gzfgeh="http://schemas.android.com/apk/res-/com.gzfgeh.customvoiceview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -15,9 +15,8 @@
         gzfgeh:firstColor="@color/firstColor"
         gzfgeh:secondColor="@color/secondColor"
         gzfgeh:circleWidth="10dp"
-        gzfgeh:dotCount="20"
-        gzfgeh:bg="@drawable/abc_btn_check_material"/>
-
-
+        gzfgeh:dotCount="10"
+        gzfgeh:bg="@drawable/abc_btn_check_material"
+        gzfgeh:splitSize="5"/>
 
 </RelativeLayout>
