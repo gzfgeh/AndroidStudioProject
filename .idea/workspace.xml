@@ -18,49 +18,92 @@
   </component>
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 5" />
+        </devices>
+        <target>android-19</target>
+      </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.gzfgeh.customvoiceview" />
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/FitScreen/src/main/java/com/gzfgeh/fitscreen/MainActivity.java" line="14" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8757e97a-5b8e-4e05-b7b7-777d37774ed7" name="Default" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/androidTest/java/com/gzfgeh/fitscreen/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/FitScreen.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/java/com/gzfgeh/fitscreen/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-w820dp/dimens.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/menu/menu_name.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/libs/AutoScalingLayout1.2.aar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/login_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/login_btn_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/login_btn_bg_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/login_input_form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/AutoScalingLayout1_2_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1024x600/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1024x768/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1152x735/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1152x768/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1184x720/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1196x720/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x720/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x768/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x800/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1812x1080/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1920x1080/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1920x1200/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-2560x1440/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-2560x1600/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-400x320/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-4500x3200/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-480x320/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-800x480/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-854x480/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-960x540/lay_x.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1024x600/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1024x768/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1152x735/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1152x768/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1184x720/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1196x720/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x720/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x768/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1280x800/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1812x1080/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1920x1080/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-1920x1200/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-2560x1440/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-2560x1600/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-400x320/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-4500x3200/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-480x320/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-800x480/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-854x480/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values-960x540/lay_y.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidStudioProject.iml" afterPath="$PROJECT_DIR$/AndroidStudioProject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomView/CustomView.iml" afterPath="$PROJECT_DIR$/CustomView/CustomView.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomViewGroup/CustomViewGroup.iml" afterPath="$PROJECT_DIR$/CustomViewGroup/CustomViewGroup.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CustomVoiceView/CustomVoiceView.iml" afterPath="$PROJECT_DIR$/CustomVoiceView/CustomVoiceView.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitScreen/FitScreen.iml" afterPath="$PROJECT_DIR$/FitScreen/FitScreen.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitScreen/build.gradle" afterPath="$PROJECT_DIR$/FitScreen/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android Studio Project.iws" />
@@ -163,6 +206,15 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state />
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Android Studio Project" />
   </component>
@@ -172,25 +224,48 @@
         <entry file="file://$PROJECT_DIR$/FitScreen/src/main/java/com/gzfgeh/fitscreen/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.517179">
+            <state vertical-scroll-proportion="-7.8965516">
+              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen_fit.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="e#343#376#0" expanded="true" />
+                <element signature="e#296#317#0" expanded="true" />
+                <element signature="e#347#360#0" expanded="true" />
+                <element signature="e#391#404#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.36576787">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -714,6 +789,11 @@
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="zipalignDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Prepare :AutoScalingLayout1.2:" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepareAutoScalingLayout12Library" />
               </ExternalTaskPojo>
             </list>
           </value>
@@ -2446,6 +2526,11 @@
                 <option name="name" value="preReleaseBuild" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Prepare :AutoScalingLayout1.2:" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FitScreen" />
+                <option name="name" value="prepareAutoScalingLayout12Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Prepare com.android.support:appcompat-v7:22.1.1" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/FitScreen" />
                 <option name="name" value="prepareComAndroidSupportAppcompatV72211Library" />
@@ -3018,7 +3103,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="8581246093442" />
-        <entry key="D:\AndroidStudio\AndroidStudioProject" value="10016735363157" />
+        <entry key="D:\AndroidStudio\AndroidStudioProject" value="10016739963979" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3437,6 +3522,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4-sources.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="C:/Work/SoftWare/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/appcompat-v7/22.1.1/appcompat-v7-22.1.1.aar" />
+                            <option value="$MODULE_DIR$/libs/AutoScalingLayout1.2.aar" />
                             <option value="C:/Work/SoftWare/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-v4/22.1.1/support-v4-22.1.1.aar" />
                             <option value="C:/Work/SoftWare/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar" />
                           </list>
@@ -3646,12 +3732,26 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/FitScreen/src/main/java/com/gzfgeh/fitscreen/MainActivity.java" />
+        <option value="$PROJECT_DIR$/FitScreen/build.gradle" />
+        <option value="$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml" />
+      </list>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -3676,7 +3776,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3688,15 +3788,26 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android Studio Project" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android Studio Project" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FitScreen" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3731,6 +3842,11 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3769,13 +3885,22 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteToolWindowManager.SHOW" value="false" />
+    <property name="last_opened_file_path" value="C:/Work/Code/AutoScalingLayout-master/AutoScalingLayout-master/project/build.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
+      <recent name="com.gzfgeh.fitscreen" />
       <recent name="com.gzfgeh.customview" />
       <recent name="com.gzfgeh.custombutton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AndroidStudio\AndroidStudioProject\FitScreen\src\main\res" />
+      <recent name="D:\AndroidStudio\AndroidStudioProject\FitScreen\src\main\res\mipmap-xhdpi" />
+      <recent name="D:\AndroidStudio\AndroidStudioProject\FitScreen\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.FitScreen">
@@ -4177,7 +4302,13 @@
       <option name="project" value="LOCAL" />
       <updated>1432863186832</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1432880342232</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1432880342232</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -4185,13 +4316,13 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17114915" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26528117" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -4200,7 +4331,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17909536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4240,78 +4371,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/java/com/gzfgeh/customvoiceview/CustomVoiceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/java/com/gzfgeh/customvoiceview/CustomVoiceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomVoiceView/src/main/java/com/gzfgeh/customvoiceview/CustomVoiceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomViewGroup/src/main/java/com/gzfgeh/customviewgroup/CustomViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomViewGroup/src/main/java/com/gzfgeh/customviewgroup/CustomViewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CustomView/src/main/java/com/gzfgeh/customview/CustomVoiceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CustomView/src/main/res/values/attr.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4593,14 +4652,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CustomView/src/main/java/com/gzfgeh/customview/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14739229">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29478458">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/FitScreen/src/main/java/com/gzfgeh/fitscreen/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46706587">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/mipmap-xhdpi/login_input_form.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/activity_main.xml">
@@ -4608,11 +4693,79 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.517179">
+        <state vertical-scroll-proportion="-7.8965516">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#296#317#0" expanded="true" />
+            <element signature="e#347#360#0" expanded="true" />
+            <element signature="e#391#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values-400x320/lay_x.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.285714">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values-480x320/lay_x.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9727891">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values-1920x1200/lay_x.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values-2560x1600/lay_x.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/layout/screen_fit.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#343#376#0" expanded="true" />
+            <element signature="e#296#317#0" expanded="true" />
+            <element signature="e#347#360#0" expanded="true" />
+            <element signature="e#391#404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FitScreen/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36576787">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
