@@ -1,1 +1,1 @@
-include ':app', ':CustomView', ':CustomVoiceView', ':CustomViewGroup', ':FitScreen'
+include ':app', ':CustomView', ':CustomVoiceView', ':CustomViewGroup', ':FitScreen', ':ultrapulltorefresh'
