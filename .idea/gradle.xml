@@ -12,9 +12,7 @@
             <option value="$PROJECT_DIR$/CustomView" />
             <option value="$PROJECT_DIR$/CustomViewGroup" />
             <option value="$PROJECT_DIR$/CustomVoiceView" />
-            <option value="$PROJECT_DIR$/FitScreen" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/ultrapulltorefresh" />
           </set>
         </option>
       </GradleProjectSettings>

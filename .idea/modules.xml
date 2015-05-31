@@ -6,9 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CustomView/CustomView.iml" filepath="$PROJECT_DIR$/CustomView/CustomView.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomViewGroup/CustomViewGroup.iml" filepath="$PROJECT_DIR$/CustomViewGroup/CustomViewGroup.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomVoiceView/CustomVoiceView.iml" filepath="$PROJECT_DIR$/CustomVoiceView/CustomVoiceView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FitScreen/FitScreen.iml" filepath="$PROJECT_DIR$/FitScreen/FitScreen.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ultrapulltorefresh/ultrapulltorefresh.iml" filepath="$PROJECT_DIR$/ultrapulltorefresh/ultrapulltorefresh.iml" />
     </modules>
   </component>
 </project>
